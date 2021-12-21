@@ -109,5 +109,10 @@ namespace ClientReservasi_20190140045
             btSimpan.Enabled = false;
             textBoxID.Enabled = false;
         }
+
+        private void textBoxID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

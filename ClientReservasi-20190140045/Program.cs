@@ -16,7 +16,10 @@ namespace ClientReservasi_20190140045
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Login());
+            //Application.Run(new Form1());
+            //Application.Run(new Login());
+            //Application.Run(new Register());
         }
     }
 }
